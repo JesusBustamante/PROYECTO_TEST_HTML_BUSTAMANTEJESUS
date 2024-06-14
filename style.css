@@ -1,0 +1,51 @@
+@font-face {
+    font-family: light;
+    src: url(Fonts/MyriadPro-Light.woff);
+}
+
+.container {
+    width: 100%;
+    height: 5883px;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 174px;
+    background-color: #346bcc;
+    z-index: 1;
+}
+
+#col {
+    width: 20%;
+    height: 40%;
+}
+
+.menu > p {
+    color: white;
+    font-family: light;
+    font-size: 150%;
+}
+
+.borde {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 15%;
+    height: 60px;
+}
+
+.borde p {
+    color: black;
+    font-family: light;
+    font-size: 150%;
+}
+
