@@ -1,61 +1,91 @@
 @font-face {
-    font-family: light;
+    font-family: mlight;
     src: url(Fonts/MyriadPro-Light.woff);
 }
 
-/*.container {
-    width: 100%;
-    height: 5883px;
+@font-face {
+    font-family: regular;
+    src: url(Fonts/MYRIADPRO-REGULAR.woff);
 }
 
-.menu {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 174px;
-    background-color: #346bcc;
-    z-index: 1;
-}
+/*@media only screen and (max-width: 1920px) and (min-width: 601px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .menu {
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 17.4%;
+        max-height: auto;
+        background-color: #346bcc;
+        z-index: 1;
+    }
+    
+    #col {
+        width:20%;
+        height: 40%;
+    }
+    
+    .menu > p {
+        color: white;
+        font-family: light;
+        font-size: 150%;
+        
+    }
 
-#col {
-    position: absolute;
-    left: 35%;
-    width:20%;
-    height: 40%;
-}
+    #letra {
+        justify-content: center;
+        color: black;
+        font-family: light;
+        font-size: 150%;
+        z-index: 1;
+    }
+    
+    .borde {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        border: 1px solid gray;
+        align-items: center;
+        border-radius: 50px;
+        background-color: #fff;
+        left: 85%;
+        width: 12%;
+        height: 25%;
+    }
 
-.menu > p {
-    color: white;
-    font-family: light;
-    font-size: 150%;
-}
+    #fondo {
+        position: absolute;
+        top: 17.4%;
+        left: 0%;
+        width: 100%;
+        height: 100%;   
+    }
 
-.borde {
-    display: flex;
-    justify-content: center;
-    border: 1px solid gray;
-    align-items: center;
-    border-radius: 50px;
-    background-color: #fff;
-    width: 15%;
-    height: 60px;
-}
-
-.borde {
-    justify-content: center;
-    color: black;
-    font-family: light;
-    font-size: 150%;
+    .formulario {
+        position: absolute;
+        top: 26.1%;
+        left: 5.5%;
+        background-color: white;
+        border-radius: 10px;
+        width: 33%;
+        height: 80%;
+    }
 }*/
 
-@media only screen and (min-width: 430px) { 
+@media only screen and (max-width: 600px) { 
 
     .container {
         width: 100%;
-        height: 5883px;
+        height: 100%;
+        overflow: hidden;
     }
 
     .menu {
@@ -78,14 +108,14 @@
     
     .menu > p {
         color: white;
-        font-family: light;
+        font-family: mlight;
         font-size: 50%;
     }
 
     #letra {
         justify-content: center;
         color: black;
-        font-family: light;
+        font-family: mlight;
         font-size: 50%;
         z-index: 1;
     }
@@ -102,6 +132,37 @@
         width: 12%;
         height: 25%;
         
+    }
+
+    #fondo {
+        position: absolute;
+        top: 6%;
+        left: 0%;
+        width: 150%;
+        height: auto;
+    }
+
+    .formulario {
+        position: absolute;
+        top: 8%;
+        left: 7%;
+        background-color: white;
+        border-radius: 10px;
+        width: 87%;
+        height: 15%;
+    }
+
+    #tittle {
+        font-family: regular;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    #datos {
+        font-family: mlight;
+        text-align: center;
+        font-size: 5px;
+        margin-top: -4%;
     }
     
 }
