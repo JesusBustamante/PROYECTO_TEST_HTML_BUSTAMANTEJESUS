@@ -225,6 +225,38 @@
     .datos p {
         position: absolute;
         left: 10%;
-        flex-direction: column;
+        font-size: 70%;
+    }
+
+    #td {
+        top: 27.7%;
+    }
+
+    #nd {
+        top: 34%;
+    }
+
+    #pn {
+        top: 40%;
+    }
+
+    #pa {
+        top: 46.3%;
+    }
+
+    #fe {
+        top: 52.6%;
+    }
+
+    #tm {
+        top: 58.9%;
+    }
+
+    .borde2 {
+        position: absolute;
+        border-radius: 10px;
+        background-color: #157ffb;
+        width: 30%;
+        height: 5%;
     }
 }
