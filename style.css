@@ -82,6 +82,9 @@
 
 @media (350px <= width <= 600px) { 
 
+    .container {
+        height: 5000px;
+    }
 
     .menu {
         position: fixed;
@@ -142,11 +145,29 @@
     }
 
     #description {
-        margin-top: 35%;
+        margin-top: 30%;
         color: black;
         font-size: 100%;
         font-family: regular;
         text-align: center;
+    }
+
+    .borde2 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 26%;
+        border-radius: 10px;
+        background-color: #157ffb;
+        width: 30%;
+        height: 4%;
+    }
+
+    #letra2 {
+        font-family: mlight;
+        color: white;
+        font-size: 90%;
     }
 
     #fondo {
@@ -164,7 +185,7 @@
         background-color: white;
         border-radius: 10px;
         width: 87%;
-        height: 70%;
+        height: 55%;
         box-shadow: -1px -1px 20px rgba(0, 0, 0, 0.2);
     }
 
@@ -229,34 +250,75 @@
     }
 
     #td {
-        top: 27.7%;
+        top: 35%;
     }
 
     #nd {
-        top: 34%;
+        top: 43%;
     }
 
     #pn {
-        top: 40%;
+        top: 51%;
     }
 
     #pa {
-        top: 46.3%;
+        top: 59%;
     }
 
     #fe {
-        top: 52.6%;
+        top: 67%;
     }
 
     #tm {
-        top: 58.9%;
+        top: 75%;
     }
 
-    .borde2 {
+    .borde3 {
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 90%;
+        left: 35%;
         border-radius: 10px;
         background-color: #157ffb;
         width: 30%;
         height: 5%;
+    }
+
+    #letra3 {
+        color: white;
+        font-family: mlight;
+        font-size: 90%;
+        z-index: 1;
+    }
+
+    .page2 p {
+        position: absolute;
+        display: flex;
+        text-align: center;
+    }
+
+    #p1 {
+        left: 18%;
+        top: 97%;
+        font-size: 150%;
+    }
+
+    #p2 {
+        left: 1%;
+        top: 105%;
+    }
+
+    #p3 {
+        left: 1%;
+        top: 117%;
+    }
+
+    #dolar {
+        position: absolute;
+        top: 130%;
+        left: 10%;
+        width: 80%;
     }
 }
