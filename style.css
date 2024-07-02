@@ -535,19 +535,23 @@
     }
 
     #entrega {
+        position: relative;
         font-size: 170%;
     }
 
     p2, p4, p6 {
+        position: relative;
         font-family: regular;
         font-size: 150%;
     }
 
     p3, p5 {
+        position: relative;
         margin-top: 10%;
     }
 
     p7 {
+        position: relative;
         margin-top: 25%;
         font-size: 170%;
     }
@@ -559,5 +563,98 @@
         justify-content: center;
         top: 210%;
         width: 40%;
+    }
+
+    #pf {
+        font-family: mlight;
+        margin-left: 9%;
+    }
+
+    #down2 {
+        position: absolute;
+        top: 99%;
+        left: 39%;
+    }
+
+    .page4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 490%;
+    }
+
+    p8 {
+        font-family: mlight;
+        font-size: 170%;
+    }
+
+    p9, p11 {
+        position: relative;
+        margin-top: 15%;
+        font-family: regular;
+        font-size: 140%;
+    }
+
+    p10, p12, p13 {
+        position: relative;
+        margin-top: 5%;
+        font-family: mlight;
+        font-size: 130%;
+    }
+
+    #circle1 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 275%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    #circle2 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 310%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    #down3 {
+        position: absolute;
+        top: 342%;
+    }
+
+    .page5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto2 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    p14, p16 {
+        position: relative;
     }
 }
