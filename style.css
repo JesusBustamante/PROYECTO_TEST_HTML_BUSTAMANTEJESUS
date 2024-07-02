@@ -8,6 +8,16 @@
     src: url(Fonts/MYRIADPRO-REGULAR.woff);
 }
 
+@font-face {
+    font-family: mbold;
+    src: url(Fonts/MYRIADPRO-BOLD.woff);
+}
+
+@font-face {
+    font-family: msemibold;
+    src: url(Fonts/MYRIADPRO-SEMIBOLD.woff);
+}
+
 @media only screen and (max-width: 1920px) and (min-width: 601px) {
     .container {
         width: 100%;
@@ -618,7 +628,7 @@
         width: 10%;
         height: 5%;
         border-radius: 50px;
-        top: 275%;
+        top: 278%;
         color: #fff;
         font-family: mlight;
     }
@@ -632,14 +642,14 @@
         width: 10%;
         height: 5%;
         border-radius: 50px;
-        top: 310%;
+        top: 313%;
         color: #fff;
         font-family: mlight;
     }
 
     #down3 {
         position: absolute;
-        top: 342%;
+        top: 345%;
     }
 
     .page5 {
@@ -648,13 +658,99 @@
     }
 
     .texto2 {
+        position: absolute;
         display: flex;
         align-items: center;
         text-align: center;
         flex-direction: column;
+        top: 355%;
     }
 
     p14, p16 {
         position: relative;
+        margin-top: 15%;
+        font-family: regular;
+        font-size: 140%;
+    }
+
+    p15, p17, p18 {
+        position: relative;
+        margin-top: 5%;
+        font-family: mlight;
+        font-size: 130%;
+    }
+
+    #down4 {
+        position: absolute;
+        top: 452.5%;
+    }
+
+    #circle3 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 357%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    #circle4 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 406%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    .page6 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto3 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        top: 470%;
+    }
+
+    p19 {
+        position: relative;
+        font-family: regular;
+        font-size: 140%;
+    }
+
+    p20 {
+        position: relative;
+        margin-top: 5%;
+        font-family: mlight;
+        font-size: 130%;
+    }
+
+    #circle5 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 465%;
+        color: #fff;
+        font-family: mlight;
     }
 }
