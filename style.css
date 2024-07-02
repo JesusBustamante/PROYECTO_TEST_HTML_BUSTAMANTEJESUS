@@ -8,7 +8,7 @@
     src: url(Fonts/MYRIADPRO-REGULAR.woff);
 }
 
-/*@media only screen and (max-width: 1920px) and (min-width: 601px) {
+@media only screen and (max-width: 1920px) and (min-width: 601px) {
     .container {
         width: 100%;
         height: 100%;
@@ -78,7 +78,193 @@
         width: 33%;
         height: 80%;
     }
-}*/
+
+    #tittle {
+        font-family: regular;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    #datos {
+        font-family: mlight;
+        text-align: center;
+        font-size: 80%;
+        margin-top: -4%;
+    }
+
+    .datos {
+        display: flex;
+        justify-content: center;
+    }
+
+    #typedocument {
+        position: absolute;
+        margin-top: 7%;
+        width: 80%;
+    }
+
+    #numberdocument {
+        position: absolute;
+        margin-top: 17%;
+        width: 80%;
+    }
+
+    #firstname {
+        position: absolute;
+        margin-top: 27%;
+        width: 80%;
+    }
+
+    #lastname {
+        position: absolute;
+        margin-top: 37%;
+        width: 80%;
+    }
+
+    #date {
+        position: absolute;
+        margin-top: 47%;
+        width: 80%;
+    }
+
+    #mobile {
+        position: absolute;
+        margin-top: 57%;
+        width: 80%;
+    }
+    
+    .datos p {
+        position: absolute;
+        left: 10%;
+        font-size: 70%;
+    }
+
+    #td {
+        top: 35%;
+    }
+
+    #nd {
+        top: 43%;
+    }
+
+    #pn {
+        top: 51%;
+    }
+
+    #pa {
+        top: 59%;
+    }
+
+    #fe {
+        top: 67%;
+    }
+
+    #tm {
+        top: 75%;
+    }
+
+    .borde3 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 90%;
+        left: 35%;
+        border-radius: 10px;
+        background-color: #157ffb;
+        width: 30%;
+        height: 5%;
+    }
+
+    #letra3 {
+        color: white;
+        font-family: mlight;
+        font-size: 90%;
+    }
+
+    .page2 p {
+        position: absolute;
+        display: flex;
+        text-align: center;
+    }
+
+    #p1 {
+        left: 18%;
+        top: 97%;
+        font-size: 150%;
+    }
+
+    #p2 {
+        left: 1%;
+        top: 105%;
+    }
+
+    #p3 {
+        left: 1%;
+        top: 117%;
+    }
+
+    #dolar {
+        position: absolute;
+        top: 130%;
+        left: 10%;
+        width: 80%;
+    }
+
+    #etapas {
+        position: absolute;
+        font-family: mlight;
+        top: 157%;
+        left: 27%;
+    }
+
+    #down {
+        position: absolute;
+        top: 161%;
+        left: 47%;
+    }
+
+    .page3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .centrados {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        top: 165%;
+        font-family: mlight;
+    }
+
+    #entrega {
+        font-size: 170%;
+    }
+
+    p2, p4, p6 {
+        font-family: regular;
+        font-size: 150%;
+    }
+
+    p3, p5 {
+        margin-top: 10%;
+    }
+
+    p7 {
+        margin-top: 25%;
+        font-size: 170%;
+    }
+
+    .centradoimg {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 210%;
+        width: 40%;
+    }
+}
 
 @media (350px <= width <= 600px) { 
 
@@ -290,7 +476,6 @@
         color: white;
         font-family: mlight;
         font-size: 90%;
-        z-index: 1;
     }
 
     .page2 p {
@@ -320,5 +505,59 @@
         top: 130%;
         left: 10%;
         width: 80%;
+    }
+
+    #etapas {
+        position: absolute;
+        font-family: mlight;
+        top: 157%;
+        left: 27%;
+    }
+
+    #down {
+        position: absolute;
+        top: 161%;
+        left: 47%;
+    }
+
+    .page3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .centrados {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        top: 165%;
+        font-family: mlight;
+    }
+
+    #entrega {
+        font-size: 170%;
+    }
+
+    p2, p4, p6 {
+        font-family: regular;
+        font-size: 150%;
+    }
+
+    p3, p5 {
+        margin-top: 10%;
+    }
+
+    p7 {
+        margin-top: 25%;
+        font-size: 170%;
+    }
+
+    .centradoimg {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 210%;
+        width: 40%;
     }
 }
