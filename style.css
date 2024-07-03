@@ -256,49 +256,51 @@
 
     #p1 {
         position: absolute;
-        left: 55%;
-        top: 20%;
+        left: 45%;
+        top: 65%;
         font-size: 300%;
         font-family: mlight;
     }
 
     #p2 {
         position: absolute;
-        margin-top: 185%;
-        margin-left: 10%;
-        font-size: 500%;
+        margin-top: 95%;
+        margin-left: -15%;
+        font-size: 200%;
         font-family: mlight;
         width: 1610px;
     }
 
     #p3 {
         position: relative;
-        margin-top: 215%;
-        margin-left: 20%;
-        font-size: 500%;
+        margin-top: 107%;
+        margin-left: -13%;
+        font-size: 200%;
         font-family: mlight;
         width: 1530px;
     }
 
     #dolar {
         position: absolute;
-        top: 60%;
-        left: 100%;
-        width: 140%;
+        top: 68%;
+        left: 60%;
+        width: 60%;
     }
 
     #etapas {
         position: absolute;
         font-family: mlight;
-        top: 107%;
-        left: 27%;
+        font-size: 130%;
+        top: 100%;
+        color: #000;
+        left: 28%;
         text-decoration: none;
     }
 
     #down {
         position: absolute;
-        top: 161%;
-        left: 47%;
+        top: 103%;
+        left: 35%;
     }
 
     .page3 {
@@ -311,7 +313,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        top: 400%;
+        top: 200%;
         font-family: mlight;
     }
 
@@ -319,31 +321,32 @@
         position: absolute;
         top: -10%;
         left: 120%;
-        font-size: 700%;
+        font-size: 400%;
         width: 1500px;
     }
 
     p2 {
         position: absolute;
         font-family: regular;
-        font-size: 500%;
+        font-size: 300%;
         top: 60%;
+        left: -68%;
         width: 800px;
     }
 
     p4 {
         position: absolute;
         font-family: regular;
-        font-size: 500%;
+        font-size: 300%;
         top: 60%;
-        left: 130%;
+        left: 16%;
         width: 800px;
     }
 
     p6 {
         position: absolute;
         font-family: regular;
-        font-size: 500%;
+        font-size: 300%;
         top: 60%;
         left: 310%;
         width: 900px;
@@ -351,25 +354,25 @@
 
     p1 {
         position: absolute;
-        top: 40%;
-        font-size: 400%;
-        left: 25%;
+        top: 50%;
+        font-size: 300%;
+        left: -50%;
         width: 800px;
     }
 
     p3{
         position: absolute;
-        top: 40%;
-        font-size: 400%;
-        left: 170%;
+        top: 50%;
+        font-size: 300%;
+        left: 43%;
         width: 800px;
     }
 
     p5 {
         position: absolute;
-        top: 40%;
-        font-size: 400%;
-        left: 350%;
+        top: 50%;
+        font-size: 300%;
+        left: 130%;
         width: 800px;
     }
     
