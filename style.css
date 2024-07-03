@@ -76,24 +76,25 @@
 
     .information {
         position: absolute;
-        display: flex;
-        flex-direction: column;
     }
 
     #ingreso {
         position: absolute;
-        top: 35%;
-        left: 110%;
+        top: 85vh;
+        left: 115vw;
+        width: 1000px;
         color: black;
-        font-size: 500%;
+        font-size: 800%;
         font-family: mlight;
     }
 
     #description {
-        margin-top: 35%;
-        margin-left: 41%;
+        position: absolute;
+        top: 110vh;
+        left: 85vw;
+        width: 2000px;
         color: black;
-        font-size: 190%;
+        font-size: 400%;
         font-family: mlight;
         text-align: center;
     }
@@ -118,11 +119,11 @@
     }
 
     #fondo {
-        position: relative;
+        position: absolute;
         margin-top: 17.4%;
         left: 0%;
         width: 192%;
-        height: 100%;   
+        height: auto;   
     }
 
     .formulario {
@@ -259,36 +260,44 @@
 
     #p1 {
         position: absolute;
-        left: 35%;
-        top: 50%;
-        font-size: 300%;
+        width: 2000px;
+        left: 55%;
+        top: 57%;
+        font-size: 700%;
         font-family: mlight;
     }
 
     #p2 {
-        position: relative;
-        margin-top: 35%;
-        font-size: 200%;
+        position: absolute;
+        margin-top: 185%;
+        margin-left: 10%;
+        font-size: 500%;
+        font-family: mlight;
+        width: 1610px;
     }
 
     #p3 {
         position: relative;
-        margin-top: 140%;
-        font-size: 200%;
+        margin-top: 215%;
+        margin-left: 20%;
+        font-size: 500%;
+        font-family: mlight;
+        width: 1530px;
     }
 
     #dolar {
-        position: relative;
-        margin-top: 1%;
-        left: 10%;
-        width: 80%;
+        position: absolute;
+        top: 60%;
+        left: 100%;
+        width: 140%;
     }
 
     #etapas {
         position: absolute;
         font-family: mlight;
-        top: 157%;
+        top: 107%;
         left: 27%;
+        text-decoration: none;
     }
 
     #down {
@@ -306,35 +315,86 @@
         position: absolute;
         display: flex;
         align-items: center;
-        flex-direction: column;
-        top: 165%;
+        justify-content: space-around;
+        top: 400%;
         font-family: mlight;
     }
 
     #entrega {
-        font-size: 170%;
+        position: absolute;
+        top: -10%;
+        left: 120%;
+        font-size: 700%;
+        width: 1500px;
     }
 
-    p2, p4, p6 {
+    p2 {
+        position: absolute;
         font-family: regular;
-        font-size: 150%;
+        font-size: 500%;
+        top: 60%;
+        width: 800px;
     }
 
-    p3, p5 {
-        margin-top: 10%;
+    p4 {
+        position: absolute;
+        font-family: regular;
+        font-size: 500%;
+        top: 60%;
+        left: 130%;
+        width: 800px;
+    }
+
+    p6 {
+        position: absolute;
+        font-family: regular;
+        font-size: 500%;
+        top: 60%;
+        left: 310%;
+        width: 900px;
+    }
+
+    p1 {
+        position: absolute;
+        top: 40%;
+        font-size: 400%;
+        left: 25%;
+        width: 800px;
+    }
+
+    p3{
+        position: absolute;
+        top: 40%;
+        font-size: 400%;
+        left: 170%;
+        width: 800px;
+    }
+
+    p5 {
+        position: absolute;
+        top: 40%;
+        font-size: 400%;
+        left: 350%;
+        width: 800px;
+    }
+    
+    #pp {
+        position: relative;
+        margin-top: 80%;
+        margin-left: 150%;
     }
 
     p7 {
         margin-top: 25%;
-        font-size: 170%;
+        font-size: 500%;
     }
 
     .centradoimg {
         position: absolute;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        top: 210%;
+        top: 500%;
         width: 40%;
     }
 
@@ -348,8 +408,8 @@
         top: 99%;
         left: 39%;
     }
-
-    .page4 {
+}
+    /*.page4 {
         display: flex;
         justify-content: center;
     }
@@ -360,7 +420,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 490%;
+        margin-top: 880%;
     }
 
     p8 {
@@ -426,7 +486,7 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
-        top: 355%;
+        top: 905%;
     }
 
     p14, p16 {
@@ -487,7 +547,7 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
-        top: 470%;
+        top: 900%;
     }
 
     p19 {
@@ -528,7 +588,7 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
-        top: 497%;
+        top: 907%;
         background-color: #157ffb;
         border-radius: 10px;
         width: 90%;
@@ -568,7 +628,7 @@
         display: flex;
         justify-content: space-between;
         text-align: center;
-        top: 530%;
+        top: 90 0%;
         width: 192%;
         height: 50%;
         background-color: #3c67c5;
@@ -604,7 +664,7 @@
         color: #fff;
         top: 70%;
     }
-}
+}*/
 
 
 @media (350px <= width <= 600px) { 
