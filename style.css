@@ -19,9 +19,13 @@
 }
 
 @media only screen and (max-width: 1920px) and (min-width: 601px) {
+
     .container {
-        width: 100%;
-        height: 100%;
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0%;
+        top: 0%;
     }
     
     .menu {
@@ -45,16 +49,15 @@
     
     .menu > p {
         color: white;
-        font-family: light;
-        font-size: 150%;
-        
+        font-family: mlight;
+        font-size: 500%;   
     }
 
     #letra {
         justify-content: center;
         color: black;
-        font-family: light;
-        font-size: 150%;
+        font-family: mlight;
+        font-size: 500%;
         z-index: 1;
     }
     
@@ -71,106 +74,162 @@
         height: 25%;
     }
 
-    #fondo {
+    .information {
         position: absolute;
-        top: 17.4%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #ingreso {
+        position: absolute;
+        top: 35%;
+        left: 110%;
+        color: black;
+        font-size: 500%;
+        font-family: mlight;
+    }
+
+    #description {
+        margin-top: 35%;
+        margin-left: 41%;
+        color: black;
+        font-size: 190%;
+        font-family: mlight;
+        text-align: center;
+    }
+
+    .borde2 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 80%;
+        left: 64%;
+        border-radius: 10px;
+        background-color: #157ffb;
+        width: 12%;
+        height: 5%;
+    }
+
+    #letra2 {
+        font-family: mlight;
+        color: white;
+        font-size: 130%;
+    }
+
+    #fondo {
+        position: relative;
+        margin-top: 17.4%;
         left: 0%;
-        width: 100%;
+        width: 192%;
         height: 100%;   
     }
 
     .formulario {
         position: absolute;
-        top: 26.1%;
-        left: 5.5%;
+        top: 50%;
+        left: 8%;
         background-color: white;
         border-radius: 10px;
-        width: 33%;
-        height: 80%;
+        width: 65%;
+        height: 140%;
     }
 
     #tittle {
-        font-family: regular;
+        font-family: msemibold;
         text-align: center;
-        font-size: 150%;
+        font-size: 400%;
     }
 
     #datos {
         font-family: mlight;
         text-align: center;
-        font-size: 80%;
+        font-size: 250%;
         margin-top: -4%;
     }
 
     .datos {
         display: flex;
         justify-content: center;
+        font-family: msemibold;
     }
 
     #typedocument {
         position: absolute;
-        margin-top: 7%;
+        top: 35%;
         width: 80%;
+        height: 5%;
     }
 
     #numberdocument {
         position: absolute;
-        margin-top: 17%;
+        top: 44%;
         width: 80%;
+        height: 5%;
     }
 
     #firstname {
         position: absolute;
-        margin-top: 27%;
+        top: 53%;
         width: 80%;
+        height: 5%;
     }
 
     #lastname {
         position: absolute;
-        margin-top: 37%;
+        top: 62%;
         width: 80%;
+        height: 5%;
     }
 
     #date {
         position: absolute;
-        margin-top: 47%;
+        top: 71%;
         width: 80%;
+        height: 5%;
     }
 
     #mobile {
         position: absolute;
-        margin-top: 57%;
+        top: 80%;
         width: 80%;
+        height: 5%;
     }
     
     .datos p {
         position: absolute;
         left: 10%;
-        font-size: 70%;
+        font-size: 150%;
     }
 
     #td {
-        top: 35%;
+        position: absolute;
+        top: 31%;
     }
 
     #nd {
-        top: 43%;
+        position: absolute;
+        top: 40%;
     }
 
     #pn {
-        top: 51%;
+        position: absolute;
+        top: 49%;
     }
 
     #pa {
-        top: 59%;
+        position: absolute;
+        top: 58%;
     }
 
     #fe {
+        position: absolute;
         top: 67%;
     }
 
     #tm {
-        top: 75%;
+        position: absolute;
+        top: 76%;
     }
 
     .borde3 {
@@ -189,34 +248,38 @@
     #letra3 {
         color: white;
         font-family: mlight;
-        font-size: 90%;
+        font-size: 200%;
     }
 
-    .page2 p {
+    .page2 {
         position: absolute;
         display: flex;
         text-align: center;
     }
 
     #p1 {
-        left: 18%;
-        top: 97%;
-        font-size: 150%;
+        position: absolute;
+        left: 35%;
+        top: 50%;
+        font-size: 300%;
+        font-family: mlight;
     }
 
     #p2 {
-        left: 1%;
-        top: 105%;
+        position: relative;
+        margin-top: 35%;
+        font-size: 200%;
     }
 
     #p3 {
-        left: 1%;
-        top: 117%;
+        position: relative;
+        margin-top: 140%;
+        font-size: 200%;
     }
 
     #dolar {
-        position: absolute;
-        top: 130%;
+        position: relative;
+        margin-top: 1%;
         left: 10%;
         width: 80%;
     }
@@ -274,7 +337,275 @@
         top: 210%;
         width: 40%;
     }
+
+    #pf {
+        font-family: mlight;
+        margin-left: 9%;
+    }
+
+    #down2 {
+        position: absolute;
+        top: 99%;
+        left: 39%;
+    }
+
+    .page4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 490%;
+    }
+
+    p8 {
+        font-family: mlight;
+        font-size: 170%;
+    }
+
+    p9, p11 {
+        position: relative;
+        margin-top: 15%;
+        font-family: msemibold;
+        font-size: 140%;
+    }
+
+    p10, p12, p13 {
+        position: relative;
+        margin-top: 5%;
+        font-family: mlight;
+        font-size: 130%;
+    }
+
+    #circle1 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 278%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    #circle2 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 313%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    #down3 {
+        position: absolute;
+        top: 345%;
+    }
+
+    .page5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto2 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        top: 355%;
+    }
+
+    p14, p16 {
+        position: relative;
+        margin-top: 15%;
+        font-family: msemibold;
+        font-size: 140%;
+    }
+
+    p15, p17, p18 {
+        position: relative;
+        margin-top: 5%;
+        font-family: mlight;
+        font-size: 130%;
+    }
+
+    #down4 {
+        position: absolute;
+        top: 455%;
+    }
+
+    #circle3 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 357%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    #circle4 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 406%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    .page6 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto3 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        top: 470%;
+    }
+
+    p19 {
+        position: relative;
+        font-family: msemibold;
+        font-size: 140%;
+    }
+
+    p20 {
+        position: relative;
+        margin-top: 5%;
+        font-family: mlight;
+        font-size: 130%;
+    }
+
+    #circle5 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #157ffb;
+        width: 10%;
+        height: 5%;
+        border-radius: 50px;
+        top: 465%;
+        color: #fff;
+        font-family: mlight;
+    }
+
+    .borde4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto4 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        top: 497%;
+        background-color: #157ffb;
+        border-radius: 10px;
+        width: 90%;
+        height: 28%;
+    }
+
+    p21 {
+        margin-top: 3%;
+        font-size: 180%;
+        font-family: mbold;
+        color: #fff;
+    }
+
+    p22 {
+        margin-top: 6%;
+        font-size: 140%;
+        font-family: mlight;
+        color: #fff;   
+    }
+
+    #borde5 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 10px;
+        font-size: 130%;
+        font-family: regular;
+        top: 515%;
+        width: 50%;
+        height: 7%;
+    }
+
+    .menu2 {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        top: 530%;
+        width: 192%;
+        height: 50%;
+        background-color: #3c67c5;
+    }
+
+    #logoc {
+        position: absolute;
+        top: 7%;
+    }
+    
+    #location {
+        position: absolute;
+        top: 25%;
+    }
+    
+    #phone {
+        position: absolute;
+        top: 61%;
+    }
+    
+    p23 {
+        position: absolute;
+        font-family: mlight;
+        font-size: 100%;
+        top: 35%;
+        color: #fff;
+    }
+    
+    p24 {
+        position: absolute;
+        font-family: mlight;
+        font-size: 100%;
+        color: #fff;
+        top: 70%;
+    }
 }
+
 
 @media (350px <= width <= 600px) { 
 
