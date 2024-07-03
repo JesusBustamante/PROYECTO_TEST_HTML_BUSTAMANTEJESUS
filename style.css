@@ -279,7 +279,7 @@
 @media (350px <= width <= 600px) { 
 
     .container {
-        height: 5000px;
+        height: 4955px;
     }
 
     .menu {
@@ -337,7 +337,7 @@
         margin-top: 17%;
         color: white;
         font-size: 200%;
-        font-family: regular;
+        font-family: msemibold;
     }
 
     #description {
@@ -386,7 +386,7 @@
     }
 
     #tittle {
-        font-family: regular;
+        font-family: msemibold;
         text-align: center;
         font-size: 150%;
     }
@@ -447,26 +447,32 @@
 
     #td {
         top: 35%;
+        font-family: msemibold;
     }
 
     #nd {
         top: 43%;
+        font-family: msemibold;
     }
 
     #pn {
         top: 51%;
+        font-family: msemibold;
     }
 
     #pa {
         top: 59%;
+        font-family: msemibold;
     }
 
     #fe {
         top: 67%;
+        font-family: msemibold;
     }
 
     #tm {
         top: 75%;
+        font-family: msemibold;
     }
 
     .borde3 {
@@ -498,16 +504,19 @@
         left: 18%;
         top: 97%;
         font-size: 150%;
+        font-family: mlight;
     }
 
     #p2 {
         left: 1%;
         top: 105%;
+        font-family: mlight;
     }
 
     #p3 {
         left: 1%;
         top: 117%;
+        font-family: mlight;
     }
 
     #dolar {
@@ -608,7 +617,7 @@
     p9, p11 {
         position: relative;
         margin-top: 15%;
-        font-family: regular;
+        font-family: msemibold;
         font-size: 140%;
     }
 
@@ -669,7 +678,7 @@
     p14, p16 {
         position: relative;
         margin-top: 15%;
-        font-family: regular;
+        font-family: msemibold;
         font-size: 140%;
     }
 
@@ -682,7 +691,7 @@
 
     #down4 {
         position: absolute;
-        top: 452.5%;
+        top: 455%;
     }
 
     #circle3 {
@@ -729,7 +738,7 @@
 
     p19 {
         position: relative;
-        font-family: regular;
+        font-family: msemibold;
         font-size: 140%;
     }
 
@@ -752,5 +761,95 @@
         top: 465%;
         color: #fff;
         font-family: mlight;
+    }
+
+    .borde4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto4 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        top: 497%;
+        background-color: #157ffb;
+        border-radius: 10px;
+        width: 90%;
+        height: 28%;
+    }
+
+    p21 {
+        margin-top: 3%;
+        font-size: 180%;
+        font-family: mbold;
+        color: #fff;
+    }
+
+    p22 {
+        margin-top: 6%;
+        font-size: 140%;
+        font-family: mlight;
+        color: #fff;   
+    }
+
+    #borde5 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 10px;
+        font-size: 130%;
+        font-family: regular;
+        top: 515%;
+        width: 50%;
+        height: 7%;
+    }
+
+    .menu2 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        top: 530%;
+        width: 100%;
+        height: 50%;
+        background-color: #3c67c5;
+    }
+
+    #logoc {
+        position: absolute;
+        top: 7%;
+    }
+    
+    #location {
+        position: absolute;
+        top: 25%;
+    }
+    
+    #phone {
+        position: absolute;
+        top: 61%;
+    }
+    
+    p23 {
+        position: absolute;
+        font-family: mlight;
+        font-size: 100%;
+        top: 35%;
+        color: #fff;
+    }
+    
+    p24 {
+        position: absolute;
+        font-family: mlight;
+        font-size: 100%;
+        color: #fff;
+        top: 70%;
     }
 }
