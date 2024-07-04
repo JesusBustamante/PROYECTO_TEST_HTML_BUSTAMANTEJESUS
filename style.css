@@ -18,16 +18,17 @@
     src: url(Fonts/MYRIADPRO-SEMIBOLD.woff);
 }
 
-@media (1440px <= width <= 1920px) {
+@media (max-width: 1920px)  {
+    
 
     .container {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vw;
         left: 0%;
         top: 0%;
     }
-    
+
     .menu {
         position: fixed;
         display: flex;
@@ -35,31 +36,31 @@
         justify-content: space-around;
         top: 0px;
         left: 0px;
-        width: 100%;
-        height: 17.4%;
+        width: 100vw;
+        height: 10vw;
         background-color: #346bcc;
         z-index: 1;
     }
-    
+
     #col {
-        width:20%;
-        height: 40%;
+        width: 20vw;
+        height: 5vw;
     }
-    
+
     .menu > p {
         color: white;
         font-family: mlight;
-        font-size: 150%;   
+        font-size: 2vw;   
     }
 
     #letra {
         justify-content: center;
         color: black;
         font-family: mlight;
-        font-size: 150%;
+        font-size: 2vw;
         z-index: 1;
     }
-    
+
     .borde {
         position: absolute;
         display: flex;
@@ -68,35 +69,35 @@
         align-items: center;
         border-radius: 50px;
         background-color: #fff;
-        left: 86%;
-        width: 10%;
-        height: 25%;
+        left: 83%;
+        width: 15vw;
+        height: 5vw;
     }
 
     #fondo {
         position: absolute;
-        top: 17.4%;
+        top: 10vw;
         left: 0%;
-        width: 100%;
+        width: 100vw;
         height: auto;   
     }
 
     #ingreso {
         position: absolute;
-        top: 53%;
-        left: 61%;
+        top: 24%;
+        left: 58%;
         color: black;
-        font-size: 350%;
+        font-size: 4vw;
         font-family: mlight;
         z-index: 1;
     }
 
     #description {
         position: absolute;
-        top: 65%;
-        left: 52%;
+        top: 33%;
+        left: 54%;
         color: black;
-        font-size: 200%;
+        font-size: 1.5vw;
         font-family: mlight;
         text-align: center;
     }
@@ -106,42 +107,42 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 88%;
-        left: 64%;
-        border-radius: 10px;
+        top: 45%;
+        left: 66.5%;
+        border-radius: 15px;
         background-color: #157ffb;
-        width: 12%;
-        height: 5%;
+        width: 10vw;
+        height: 2.5vw;
     }
 
     #letra2 {
         font-family: mlight;
         color: white;
-        font-size: 130%;
+        font-size: 1vw;
     }
 
 
     .formulario {
         position: absolute;
-        top: 25%;
+        top: 13%;
         left: 6%;
         background-color: white;
         border-radius: 10px;
-        width: 33%;
-        height: 85%;
+        width: 33vw;
+        height: 45vw;
     }
 
     #tittle {
         font-family: msemibold;
         text-align: center;
-        font-size: 200%;
+        font-size: 2vw;
         margin-top: 10%;
     }
 
     #datos {
         font-family: mlight;
         text-align: center;
-        font-size: 150%;
+        font-size: 1vw;
         margin-top: -4%;
     }
 
@@ -154,79 +155,79 @@
     #typedocument {
         position: absolute;
         top: 35%;
-        width: 80%;
-        height: 5%;
+        width: 26vw;
+        height: 2vw;
     }
 
     #numberdocument {
         position: absolute;
         top: 44%;
-        width: 80%;
-        height: 5%;
+        width: 26vw;
+        height: 2vw;
     }
 
     #firstname {
         position: absolute;
         top: 53%;
-        width: 80%;
-        height: 5%;
+        width: 26vw;
+        height: 2vw;
     }
 
     #lastname {
         position: absolute;
         top: 62%;
-        width: 80%;
-        height: 5%;
+        width: 26vw;
+        height: 2vw;
     }
 
     #date {
         position: absolute;
         top: 71%;
-        width: 80%;
-        height: 5%;
+        width: 26vw;
+        height: 2vw;
     }
 
     #mobile {
         position: absolute;
         top: 80%;
-        width: 80%;
-        height: 5%;
+        width: 26vw;
+        height: 2vw;
     }
-    
+
     .datos p {
         position: absolute;
         left: 10%;
-        font-size: 130%;
+        font-size: 1vw;
     }
 
     #td {
         position: absolute;
-        top: 29%;
+        top: 30%;
     }
 
     #nd {
         position: absolute;
-        top: 38%;
+        top: 39%;
     }
 
     #pn {
         position: absolute;
-        top: 47%;
+        top: 48%;
     }
 
     #pa {
         position: absolute;
-        top: 56%;
+        top: 57%;
     }
 
     #fe {
         position: absolute;
-        top: 65%;
+        top: 66%;
     }
 
     #tm {
         position: absolute;
-        top: 74%;
+        top: 75%;
     }
 
     .borde3 {
@@ -238,14 +239,14 @@
         left: 35%;
         border-radius: 10px;
         background-color: #157ffb;
-        width: 30%;
-        height: 5%;
+        width: 10vw;
+        height: 2.5vw;
     }
 
     #letra3 {
         color: white;
         font-family: mlight;
-        font-size: 150%;
+        font-size: 1vw;
     }
 
     .page2 {
@@ -256,51 +257,53 @@
 
     #p1 {
         position: absolute;
-        left: 45%;
-        top: 65%;
-        font-size: 300%;
+        left: 28vw;
+        top: 68vw;
+        font-size: 3vw;
         font-family: mlight;
+        width: 50vw;
     }
 
     #p2 {
         position: absolute;
-        margin-top: 95%;
-        margin-left: -15%;
-        font-size: 200%;
+        top: 75vw;
+        left: 8vw;
+        font-size: 2vw;
         font-family: mlight;
-        width: 1610px;
+        width: 50vw;
     }
 
     #p3 {
-        position: relative;
-        margin-top: 107%;
-        margin-left: -13%;
-        font-size: 200%;
+        position: absolute;
+        top: 88vw;
+        left: 8vw;
+        font-size: 2vw;
         font-family: mlight;
-        width: 1530px;
+        width: 50vw;
     }
 
     #dolar {
         position: absolute;
-        top: 68%;
-        left: 60%;
-        width: 60%;
+        top: 72vw;
+        left: 50vw;
+        width: 50vw;
     }
 
     #etapas {
         position: absolute;
         font-family: mlight;
-        font-size: 130%;
-        top: 100%;
+        font-size: 1.5vw;
+        top: 110vw;
+        left: 23vw;
+        width: 20vw;
         color: #000;
-        left: 28%;
         text-decoration: none;
     }
 
     #down {
         position: absolute;
-        top: 103%;
-        left: 35%;
+        top: 113vw;
+        left: 32vw;
     }
 
     .page3 {
@@ -310,101 +313,133 @@
 
     .centrados {
         position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        top: 200%;
+        top: 120vw;
+        left: 35vw;
         font-family: mlight;
     }
 
     #entrega {
         position: absolute;
-        top: -10%;
-        left: 120%;
-        font-size: 400%;
-        width: 1500px;
+        top: 2vw;
+        left: 3vw;
+        font-size: 3vw;
+        width: 30vw;
     }
 
     p2 {
         position: absolute;
         font-family: regular;
-        font-size: 300%;
-        top: 60%;
-        left: -68%;
-        width: 800px;
+        font-size: 2.7vw;
+        top: 15vw;
+        left: -26vw;
+        width: 30vw;
     }
 
     p4 {
         position: absolute;
         font-family: regular;
-        font-size: 300%;
-        top: 60%;
-        left: 16%;
-        width: 800px;
+        font-size: 2.7vw;
+        top: 15vw;
+        left: 1vw;
+        width: 30vw;
     }
 
     p6 {
         position: absolute;
         font-family: regular;
-        font-size: 300%;
-        top: 60%;
-        left: 310%;
-        width: 900px;
+        font-size: 2.7vw;
+        top: 15vw;
+        left: 32vw;
+        width: 30vw;
     }
 
     p1 {
         position: absolute;
-        top: 50%;
-        font-size: 300%;
-        left: -50%;
-        width: 800px;
+        top: 11vw;
+        font-size: 2.5vw;
+        left: -19vw;
+        width: 30vw;
     }
 
     p3{
         position: absolute;
-        top: 50%;
-        font-size: 300%;
-        left: 43%;
-        width: 800px;
+        top: 11vw;
+        font-size: 2.5vw;
+        left: 11vw;
+        width: 30vw;
     }
 
     p5 {
         position: absolute;
-        top: 50%;
-        font-size: 300%;
-        left: 130%;
-        width: 800px;
-    }
-    
-    #pp {
-        position: relative;
-        margin-top: 80%;
-        margin-left: 150%;
+        top: 11vw;
+        font-size: 2.5vw;
+        left: 42vw;
+        width: 30vw;
     }
 
-    p7 {
-        margin-top: 25%;
-        font-size: 500%;
+    #pp {
+        position: absolute;
+        top: 23vw;
+        left: 2vw;
+        width: 30vw;
+        font-size: 3vw;
     }
 
     .centradoimg {
         position: absolute;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        top: 500%;
-        width: 40%;
+        top: 150vw;
+        left: 1vw;
+    }
+
+    #img1 {
+        position: absolute;
+        top: -2vw;
+        left: 9vw;
+        width: 20vw;
+    }
+
+    #img2 {
+        position: absolute;
+        top: -5vw;
+        left: 36vw;
+        width: 25vw;
+    }
+
+    #img3 {
+        position: absolute;
+        left: 66vw;
+        width: 25vw;
+    }
+
+    #img4 {
+        position: absolute;
+        top: 10vw;
+        left: 32vw;
+        width: 15vw;
+    }
+
+    #img5 {
+        position: absolute;
+        top: 5vw;
+        left: 50vw;
+        width: 15vw;
     }
 
     #pf {
+        position: absolute;
         font-family: mlight;
-        margin-left: 9%;
+        font-size: 1.5vw;
+        top: 18vw;
+        left: 42vw;
+        width: 30vw;
+        text-decoration: none;
+        color: #000;
     }
 
     #down2 {
         position: absolute;
-        top: 99%;
-        left: 39%;
+        top: 21vw;
+        left: 48vw;
     }
 }
     /*.page4 {
