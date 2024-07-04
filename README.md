@@ -2,6 +2,9 @@
 
 En este sitio, puede encontrar información sobre quién es elegible para estos subsidios y cómo puede solicitarlos. Nuestro objetivo es hacer que este material sea accesible y proporcionar la información más actualizada disponible para aquellos que la necesiten, además de información actualizada sobre cualquier cambio en el sistema de subsidios. En resumen, este sitio web debe servir como un recurso completo para alguien que requiera de ayuda financiera como resultado de la pandemia COVID-19.
 
+
+# Demostración de Funciones y Aplicaciones
+
 Título e imagen de portada;
 Insignias;
 Índice;
