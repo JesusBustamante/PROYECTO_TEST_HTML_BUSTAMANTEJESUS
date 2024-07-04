@@ -18,15 +18,15 @@
     src: url(Fonts/MYRIADPRO-SEMIBOLD.woff);
 }
 
-@media (max-width: 1920px)  {
-    
+@media (max-width: 1920px) and (min-width: 481px)  {
 
     .container {
         position: absolute;
-        width: 100vw;
-        height: 100vw;
+        width: 99vw;
+        height: 329vw;
         left: 0%;
         top: 0%;
+        overflow: hidden;
     }
 
     .menu {
@@ -34,9 +34,9 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        top: 0px;
-        left: 0px;
-        width: 100vw;
+        top: 0vw;
+        left: 0vw;
+        width: 99vw;
         height: 10vw;
         background-color: #346bcc;
         z-index: 1;
@@ -51,6 +51,27 @@
         color: white;
         font-family: mlight;
         font-size: 2vw;   
+    }
+
+    #link1 {
+        text-decoration: none;
+        font-family: mlight;
+        font-size: 2vw;
+        color: #fff;
+    }
+
+    #link2 {
+        text-decoration: none;
+        font-family: mlight;
+        font-size: 2vw;
+        color: #fff;
+    }
+
+    #link3 {
+        text-decoration: none;
+        font-family: mlight;
+        font-size: 2vw;
+        color: #fff;
     }
 
     #letra {
@@ -84,18 +105,17 @@
 
     #ingreso {
         position: absolute;
-        top: 24%;
-        left: 58%;
+        top: 24vw;
+        left: 58vw;
         color: black;
         font-size: 4vw;
         font-family: mlight;
-        z-index: 1;
     }
 
     #description {
         position: absolute;
-        top: 33%;
-        left: 54%;
+        top: 33vw;
+        left: 54vw;
         color: black;
         font-size: 1.5vw;
         font-family: mlight;
@@ -107,8 +127,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 45%;
-        left: 66.5%;
+        top: 45vw;
+        left: 66.5vw;
         border-radius: 15px;
         background-color: #157ffb;
         width: 10vw;
@@ -124,8 +144,8 @@
 
     .formulario {
         position: absolute;
-        top: 13%;
-        left: 6%;
+        top: 13vw;
+        left: 6vw;
         background-color: white;
         border-radius: 10px;
         width: 33vw;
@@ -249,7 +269,7 @@
         font-size: 1vw;
     }
 
-    .page2 {
+    #page2 {
         position: absolute;
         display: flex;
         text-align: center;
@@ -306,7 +326,7 @@
         left: 32vw;
     }
 
-    .page3 {
+    #page3 {
         display: flex;
         justify-content: center;
     }
@@ -441,8 +461,8 @@
         top: 21vw;
         left: 48vw;
     }
-}
-    /*.page4 {
+
+    .page4 {
         display: flex;
         justify-content: center;
     }
@@ -453,26 +473,31 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 880%;
+        top: 175vw;
     }
 
     p8 {
         font-family: mlight;
-        font-size: 170%;
+        font-size: 3vw;
     }
 
     p9, p11 {
         position: relative;
-        margin-top: 15%;
+        margin-top: 5vw;
         font-family: msemibold;
-        font-size: 140%;
+        font-size: 2vw;
     }
 
     p10, p12, p13 {
         position: relative;
-        margin-top: 5%;
+        margin-top: 2vw;
         font-family: mlight;
-        font-size: 130%;
+        font-size: 1.8vw;
+    }
+
+    #down3 {
+        position: absolute;
+        top: 218vw;
     }
 
     #circle1 {
@@ -481,10 +506,10 @@
         align-items: center;
         justify-content: center;
         background-color: #157ffb;
-        width: 10%;
-        height: 5%;
+        width: 4vw;
+        height: 4vw;
         border-radius: 50px;
-        top: 278%;
+        top: 179vw;
         color: #fff;
         font-family: mlight;
     }
@@ -495,17 +520,12 @@
         align-items: center;
         justify-content: center;
         background-color: #157ffb;
-        width: 10%;
-        height: 5%;
+        width: 4vw;
+        height: 4vw;
         border-radius: 50px;
-        top: 313%;
+        top: 198vw;
         color: #fff;
         font-family: mlight;
-    }
-
-    #down3 {
-        position: absolute;
-        top: 345%;
     }
 
     .page5 {
@@ -519,26 +539,26 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
-        top: 905%;
+        top: 223vw;
     }
 
     p14, p16 {
         position: relative;
-        margin-top: 15%;
+        margin-top: 5vw;
         font-family: msemibold;
-        font-size: 140%;
+        font-size: 2.2vw;
     }
 
     p15, p17, p18 {
         position: relative;
-        margin-top: 5%;
+        margin-top: 2vw;
         font-family: mlight;
-        font-size: 130%;
+        font-size: 2vw;
     }
 
     #down4 {
         position: absolute;
-        top: 455%;
+        top: 272vw;
     }
 
     #circle3 {
@@ -547,10 +567,10 @@
         align-items: center;
         justify-content: center;
         background-color: #157ffb;
-        width: 10%;
-        height: 5%;
+        width: 4vw;
+        height: 4vw;
         border-radius: 50px;
-        top: 357%;
+        top: 223vw;
         color: #fff;
         font-family: mlight;
     }
@@ -561,10 +581,10 @@
         align-items: center;
         justify-content: center;
         background-color: #157ffb;
-        width: 10%;
-        height: 5%;
+        width: 4vw;
+        height: 4vw;
         border-radius: 50px;
-        top: 406%;
+        top: 248vw;
         color: #fff;
         font-family: mlight;
     }
@@ -580,20 +600,20 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
-        top: 900%;
+        top: 280vw;
     }
 
     p19 {
         position: relative;
         font-family: msemibold;
-        font-size: 140%;
+        font-size: 2vw;
     }
 
     p20 {
         position: relative;
-        margin-top: 5%;
+        margin-top: 2vw;
         font-family: mlight;
-        font-size: 130%;
+        font-size: 1.8vw;
     }
 
     #circle5 {
@@ -602,10 +622,10 @@
         align-items: center;
         justify-content: center;
         background-color: #157ffb;
-        width: 10%;
-        height: 5%;
+        width: 4vw;
+        height: 4vw;
         border-radius: 50px;
-        top: 465%;
+        top: 276vw;
         color: #fff;
         font-family: mlight;
     }
@@ -621,23 +641,24 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
-        top: 907%;
+        top: 293vw;
+        left: 5vw;
         background-color: #157ffb;
-        border-radius: 10px;
-        width: 90%;
-        height: 28%;
+        border-radius: 50px;
+        width: 90vw;
+        height: 20vw;
     }
 
     p21 {
         margin-top: 3%;
-        font-size: 180%;
+        font-size: 3vw;
         font-family: mbold;
         color: #fff;
     }
 
     p22 {
-        margin-top: 6%;
-        font-size: 140%;
+        margin-top: 2vw;
+        font-size: 2vw;
         font-family: mlight;
         color: #fff;   
     }
@@ -648,59 +669,67 @@
         align-items: center;
         justify-content: center;
         background-color: #fff;
-        border-radius: 10px;
-        font-size: 130%;
+        border-radius: 20px;
+        font-size: 1vw;
         font-family: regular;
-        top: 515%;
-        width: 50%;
-        height: 7%;
+        top: 307vw;
+        left: 45vw;
+        width: 11vw;
+        height: 3vw;
     }
 
     .menu2 {
         position: absolute;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        top: 90 0%;
-        width: 192%;
-        height: 50%;
+        top: 318vw;
+        width: 100vw;
+        height: 11vw;
         background-color: #3c67c5;
     }
 
     #logoc {
         position: absolute;
-        top: 7%;
+        top: 4vw;
     }
     
     #location {
         position: absolute;
-        top: 25%;
+        top: 1vw;
+        left: 20vw;
+        width: 3vw;
     }
     
     #phone {
         position: absolute;
-        top: 61%;
+        top: 1vw;
+        right: 20vw;
+        width: 3vw;
     }
     
     p23 {
         position: absolute;
         font-family: mlight;
-        font-size: 100%;
-        top: 35%;
+        font-size: 1vw;
+        top: 5vw;
+        left: 12.5vw;
         color: #fff;
     }
     
     p24 {
         position: absolute;
         font-family: mlight;
-        font-size: 100%;
+        font-size: 1vw;
+        top: 5vw;
+        right: 12.5vw;
         color: #fff;
-        top: 70%;
     }
-}*/
 
+}
 
-@media (350px <= width <= 600px) { 
+@media (max-width: 480px) { 
 
     .container {
         height: 4955px;
@@ -720,8 +749,8 @@
     }
 
     #col {
-        width:20%;
-        height: 40%;
+        width:20vw;
+        height: 5vw;
     }
     
     .menu > p {
@@ -729,6 +758,28 @@
         font-family: mlight;
         font-size: 130%;
     }
+
+    #link1 {
+        text-decoration: none;
+        font-family: mlight;
+        font-size: 5vw;
+        color: #fff;
+    }
+
+    #link2 {
+        text-decoration: none;
+        font-family: mlight;
+        font-size: 5vw;
+        color: #fff;
+    }
+
+    #link3 {
+        text-decoration: none;
+        font-family: mlight;
+        font-size: 2vw;
+        color: #fff;
+    }
+
 
     #letra {
         justify-content: center;
@@ -918,7 +969,7 @@
         font-size: 90%;
     }
 
-    .page2 p {
+    #page2 p {
         position: absolute;
         display: flex;
         text-align: center;
@@ -932,13 +983,13 @@
     }
 
     #p2 {
-        left: 1%;
+        left: 9%;
         top: 105%;
         font-family: mlight;
     }
 
     #p3 {
-        left: 1%;
+        left: 5%;
         top: 117%;
         font-family: mlight;
     }
@@ -963,7 +1014,7 @@
         left: 47%;
     }
 
-    .page3 {
+    #page3 {
         display: flex;
         justify-content: center;
     }
@@ -1080,14 +1131,14 @@
         width: 10%;
         height: 5%;
         border-radius: 50px;
-        top: 287%;
+        top: 290%;
         color: #fff;
         font-family: mlight;
     }
 
     #down3 {
         position: absolute;
-        top: 317%;
+        top: 321%;
     }
 
     .page5 {
@@ -1120,7 +1171,7 @@
 
     #down4 {
         position: absolute;
-        top: 416%;
+        top: 422%;
     }
 
     #circle3 {
@@ -1132,7 +1183,7 @@
         width: 10%;
         height: 5%;
         border-radius: 50px;
-        top: 323%;
+        top: 325%;
         color: #fff;
         font-family: mlight;
     }
@@ -1146,7 +1197,7 @@
         width: 10%;
         height: 5%;
         border-radius: 50px;
-        top: 369%;
+        top: 377%;
         color: #fff;
         font-family: mlight;
     }
@@ -1187,7 +1238,7 @@
         width: 10%;
         height: 5%;
         border-radius: 50px;
-        top: 424%;
+        top: 425%;
         color: #fff;
         font-family: mlight;
     }

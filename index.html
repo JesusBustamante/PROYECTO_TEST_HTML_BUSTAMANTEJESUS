@@ -10,58 +10,61 @@
 
     <div class="container">
 
+        
         <div class="menu">
-            <p>Inicio</p>
-            <p>¿Qué es?</p>
-            <img id="col" src="img/gobiernodecolombia.png" alt="">
-            <p>Entrega</p>
+            <a id="link1" href="#page1">Inicio</a>
+            <a id="link2" href="#page2">¿Qué es?</a>
+            <a href="#page1"><img id="col" src="img/gobiernodecolombia.png" alt=""></a>
+            <a id="link3" href="#page3"><p>Entrega</p></a>
 
             <p id="letra">Consultar</p>
 
             <div class="borde"></div>
         </div>
 
-
-        <div class="information">
-            <img id="fondo" src="img/Fondo.png" alt="">
-            <p id="ingreso">Ingreso Solidario</p>
-            <p id="description">Debido a la situación generada por el COVID-19, <br> el gobierno nacional aportará a las familias más afectadas <br> y que no pertenezcan a ningún programa social, <br> un subsidio por $160.000</p>
-            <div class="borde2">
-                <p id="letra2">Conocer más</p>
+        <div id="page1">
+            <div class="information">
+                <img id="fondo" src="img/Fondo.png" alt="">
+                <p id="ingreso">Ingreso Solidario</p>
+                <p id="description">Debido a la situación generada por el COVID-19, <br> el gobierno nacional aportará a las familias más afectadas <br> y que no pertenezcan a ningún programa social, <br> un subsidio por $160.000</p>
+                <div class="borde2">
+                    <p id="letra2">Conocer más</p>
+                </div>
             </div>
+
+
+
+            <div class="formulario">
+                <p id="tittle">Consulta tu estado del <br> Ingreso <br> Solidario</p>
+                <p id="datos">Por favor ingresa tus datos personales para revisar el estado <br> de entrega de tu ingreso</p>
+                <div class="datos">
+                    <p id="td">Tipo de Documento</p>
+                    <input id="typedocument" type="text" name="typedocument" placeholder="Cédula de ciudadanía">
+
+                    <p id="nd">Número de Documento</p>
+                    <input id="numberdocument" type="text" name="numberdocument" placeholder="">
+
+                    <p id="pn">Primer Nombre</p>
+                    <input id="firstname" type="text" name="firstname" placeholder="">
+
+                    <p id="pa">Primer Apellido</p>
+                    <input id="lastname" type="text" name="lastname" placeholder="">
+
+                    <p id="fe">Fecha de expedición del documento</p>
+                    <input id="date" type="date" name="date" placeholder="">
+
+                    <p id="tm">Teléfono Móvil</p>
+                    <input id="mobile" type="text" name="mobile" placeholder="">
+                </div>
+
+                <div class="borde3">
+                    <p id="letra3">Consultar</p>
+                </div>
+            </div>
+
         </div>
 
-
-
-        <div class="formulario">
-            <p id="tittle">Consulta tu estado del <br> Ingreso <br> Solidario</p>
-            <p id="datos">Por favor ingresa tus datos personales para revisar el estado <br> de entrega de tu ingreso</p>
-            <div class="datos">
-                <p id="td">Tipo de Documento</p>
-                <input id="typedocument" type="text" name="typedocument" placeholder="Cédula de ciudadanía">
-
-                <p id="nd">Número de Documento</p>
-                <input id="numberdocument" type="text" name="numberdocument" placeholder="">
-
-                <p id="pn">Primer Nombre</p>
-                <input id="firstname" type="text" name="firstname" placeholder="">
-
-                <p id="pa">Primer Apellido</p>
-                <input id="lastname" type="text" name="lastname" placeholder="">
-
-                <p id="fe">Fecha de expedición del documento</p>
-                <input id="date" type="date" name="date" placeholder="">
-
-                <p id="tm">Teléfono Móvil</p>
-                <input id="mobile" type="text" name="mobile" placeholder="">
-            </div>
-
-            <div class="borde3">
-                <p id="letra3">Consultar</p>
-            </div>
-        </div>
-
-        <div class="page2">
+        <div id="page2">
             <p id="p1">¿Qué es el Ingreso Solidario?</p>
 
             <p id="p2">Es un esquema mediante el cual se entrega una <br> 
@@ -83,7 +86,7 @@
             <img id="down" src="img/down.png" alt="">
         </div>
 
-        <div class="page3" id="page3">
+        <div id="page3">
 
             <div class="centrados">
                 <p id="entrega">Etapas de Entrega</p>
@@ -100,11 +103,11 @@
             </div>
 
             <div class="centradoimg">
-                <img src="img/Bancamia.png" alt="">
-                <img src="img/logo bancolombia.png" alt="">
-                <img src="img/Banco Caja Social.png" alt="">
-                <img src="img/logo movii.png" alt="">
-                <img src="img/Daviplata.png" alt="">
+                <img id="img1" src="img/Bancamia.png" alt="">
+                <img id="img2" src="img/logo bancolombia.png" alt="">
+                <img id="img3" src="img/Banco Caja Social.png" alt="">
+                <img id="img4" src="img/logo movii.png" alt="">
+                <img id="img5" src="img/Daviplata.png" alt="">
 
                 <a href="#page4" id="pf">Preguntas Frecuentes</a>
                 
@@ -121,12 +124,12 @@
                 <p8>Preguntas Frecuentes</p8>
 
                 <p9>Yo habia salido como beneficiaria en la primera fase 
-                    y ahora no aparezco en el listado de beneficiarios ¿Es decir,
+                    y ahora no aparezco <br> en el listado de beneficiarios ¿Es decir,
                     ya no recibiré el beneficio?
                 </p9>
 
-                <p10>Estamos actualizando el listado de beneficiarios que recibieron el giro.
-                    Si encontró su nombre en la primera etapa y está plenamente identificado,
+                <p10>Estamos actualizando el listado de beneficiarios que recibieron el giro. <br>
+                    Si encontró su nombre en la primera etapa y está plenamente <br> identificado,
                     no ha perdido su beneficio.
                 </p10>
 
@@ -135,7 +138,7 @@
                 </p11>
 
                 <p12>Estamos actualizando el listado de beneficiarios que reciben
-                    el giro. Si encontró su nombre en la primera etapa y está plenamente
+                    el giro. <br> Si encontró su nombre en la primera etapa y está plenamente <br>
                     identificado, no ha perdido su beneficio.
                 </p12>
 
@@ -155,16 +158,16 @@
                 <p14>¿Qué debo hacer porque me llegó el mensaje de que soy beneficiario y no he recibido el pago?</p14>
 
                 <p15>Si usted fue informado de que es beneficiario del programa
-                    mediante un mensaje de texto enviado por la entidad financiera
-                    en la cual tiene una cuenta o depósito activo, comuníquese con esa
+                    mediante un mensaje de texto <br> enviado por la entidad financiera
+                    en la cual tiene una cuenta o depósito activo, <br> comuníquese con esa
                     entidad financiera para averiguar cómo acceder a los recursos del
-                    Ingreso Solidario. Si usted no tiene una cuenta o depósito con el
-                    sistema financiero, y es elegido dentro del programa Ingreso Solidario,
-                    pronto recibirá un mensaje con las instrucciones para hacer la apertura
+                    Ingreso Solidario. <br> Si usted no tiene una cuenta o depósito con el
+                    sistema financiero, y es elegido <br> dentro del programa Ingreso Solidario,
+                    pronto recibirá un mensaje con <br> las instrucciones para hacer la apertura
                     de una cuenta digital.
                 </p15>
 
-                <p16>Consulté en la página web y soy beneficiario, pero aún no me han
+                <p16>Consulté en la página web y soy beneficiario, pero aún <br> no me han
                     llamado ni he recibido mensaje de texto ¿Qué debo hacer?</p16>
 
                 <p17>Si usted encontró su nombre y cédula en la base de beneficiarios
@@ -192,8 +195,8 @@
                 </p19>
 
                 <p20>Prosperidad Social está trabajando con diferentes 
-                    organizaciones y fuentes de datos para ubicarlo y 
-                    contactarlo. Lo invitamos a consultar periódicamente la página.
+                    organizaciones y <br> fuentes de datos para ubicarlo y 
+                    contactarlo. <br> Lo invitamos a consultar periódicamente la página.
                 </p20>
 
             </div>
