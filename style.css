@@ -18,7 +18,7 @@
     src: url(Fonts/MYRIADPRO-SEMIBOLD.woff);
 }
 
-@media (max-width: 1920px) and (min-width: 481px)  {
+@media (max-width: 1920px) and (min-width: 432px)  {
 
     .container {
         position: absolute;
@@ -693,6 +693,7 @@
     #logoc {
         position: absolute;
         top: 4vw;
+        width: 20vw;
     }
     
     #location {
@@ -729,7 +730,7 @@
 
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 431px) { 
 
     .container {
         height: 4955px;
@@ -740,10 +741,10 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        height: 6%;
+        top: 0vw;
+        left: 0vw;
+        width: 100vw;
+        height: 13vw;
         background-color: #346bcc;
         z-index: 1;
     }
@@ -751,12 +752,6 @@
     #col {
         width:20vw;
         height: 5vw;
-    }
-    
-    .menu > p {
-        color: white;
-        font-family: mlight;
-        font-size: 130%;
     }
 
     #link1 {
@@ -776,7 +771,7 @@
     #link3 {
         text-decoration: none;
         font-family: mlight;
-        font-size: 2vw;
+        font-size: 5vw;
         color: #fff;
     }
 
@@ -785,7 +780,7 @@
         justify-content: center;
         color: black;
         font-family: mlight;
-        font-size: 90%;
+        font-size: 5vw;
         z-index: 1;
     }
     
@@ -793,13 +788,13 @@
         position: absolute;
         display: flex;
         justify-content: center;
-        border: 1px solid gray;
-        border-radius: 50px;
+        border: 0.3vw solid gray;
+        border-radius: 50vw;
         background-color: #fff;
-        left: 83.5%;
-        width: 15%;
-        height: 30%;
-        bottom: 35%;
+        left: 78vw;
+        width: 21vw;
+        height: 6vw;
+        bottom: 3.5vw;
     }
 
     .information {
@@ -809,16 +804,16 @@
 
     #ingreso {
         position: absolute;
-        margin-top: 17%;
+        margin-top: 17vw;
         color: white;
-        font-size: 200%;
+        font-size: 7vw;
         font-family: msemibold;
     }
 
     #description {
-        margin-top: 30%;
+        margin-top: 28vw;
         color: black;
-        font-size: 100%;
+        font-size: 4vw;
         font-family: regular;
         text-align: center;
     }
@@ -828,8 +823,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 24%;
-        border-radius: 10px;
+        top: 52vw;
+        border-radius: 2vw;
         background-color: #157ffb;
         width: 30%;
         height: 4%;
@@ -838,39 +833,39 @@
     #letra2 {
         font-family: mlight;
         color: white;
-        font-size: 90%;
+        font-size: 3.5vw;
     }
 
     #fondo {
         position: absolute;
-        top: 6%;
-        left: 0%;
-        width: 100%;
+        top: 12.5vw;
+        left: 0vw;
+        width: 100vw;
         height: auto;
     }
 
     .formulario {
         position: absolute;
-        top: 35%;
-        left: 7%;
+        top: 75vw;
+        left: 7vw;
         background-color: white;
-        border-radius: 10px;
-        width: 87%;
-        height: 55%;
+        border-radius: 5vw;
+        width: 87vw;
+        height: 119vw;
         box-shadow: -1px -1px 20px rgba(0, 0, 0, 0.2);
     }
 
     #tittle {
         font-family: msemibold;
         text-align: center;
-        font-size: 150%;
+        font-size: 5.6vw;
     }
 
     #datos {
         font-family: mlight;
         text-align: center;
-        font-size: 80%;
-        margin-top: -4%;
+        font-size: 3vw;
+        margin-top: -4vw;
     }
 
     .datos {
@@ -880,73 +875,73 @@
 
     #typedocument {
         position: absolute;
-        margin-top: 7%;
-        width: 80%;
+        margin-top: 7vw;
+        width: 70vw;
     }
 
     #numberdocument {
         position: absolute;
-        margin-top: 17%;
-        width: 80%;
+        margin-top: 17vw;
+        width: 70vw;
     }
 
     #firstname {
         position: absolute;
-        margin-top: 27%;
-        width: 80%;
+        margin-top: 27vw;
+        width: 70vw;
     }
 
     #lastname {
         position: absolute;
-        margin-top: 37%;
-        width: 80%;
+        margin-top: 37vw;
+        width: 70vw;
     }
 
     #date {
         position: absolute;
-        margin-top: 47%;
-        width: 80%;
+        margin-top: 47vw;
+        width: 70vw;
     }
 
     #mobile {
         position: absolute;
-        margin-top: 57%;
-        width: 80%;
+        margin-top: 57vw;
+        width: 70vw;
     }
     
     .datos p {
         position: absolute;
-        left: 10%;
-        font-size: 70%;
+        left: 8vw;
+        font-size: 3vw;
     }
 
     #td {
-        top: 31.5%;
+        top: 38vw;
         font-family: msemibold;
     }
 
     #nd {
-        top: 39.5%;
+        top: 48vw;
         font-family: msemibold;
     }
 
     #pn {
-        top: 47%;
+        top: 58vw;
         font-family: msemibold;
     }
 
     #pa {
-        top: 54%;
+        top: 68vw;
         font-family: msemibold;
     }
 
     #fe {
-        top: 61.2%;
+        top: 78vw;
         font-family: msemibold;
     }
 
     #tm {
-        top: 69%;
+        top: 88vw;
         font-family: msemibold;
     }
 
@@ -955,18 +950,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 90%;
-        left: 35%;
-        border-radius: 10px;
+        top: 105vw;
+        left: 32vw;
+        border-radius: 2vw;
         background-color: #157ffb;
-        width: 30%;
-        height: 5%;
+        width: 25vw;
+        height: 6vw;
     }
 
     #letra3 {
         color: white;
         font-family: mlight;
-        font-size: 90%;
+        font-size: 3.5vw;
     }
 
     #page2 p {
@@ -976,42 +971,44 @@
     }
 
     #p1 {
-        left: 18%;
-        top: 97%;
-        font-size: 150%;
+        left: 11vw;
+        top: 210vw;
+        font-size: 7vw;
         font-family: mlight;
     }
 
     #p2 {
-        left: 9%;
-        top: 105%;
+        left: 9vw;
+        top: 225vw;
         font-family: mlight;
     }
 
     #p3 {
-        left: 5%;
-        top: 117%;
+        left: 5vw;
+        top: 250vw;
         font-family: mlight;
     }
 
     #dolar {
         position: absolute;
-        top: 130%;
-        left: 10%;
-        width: 80%;
+        top: 280vw;
+        left: 10vw;
+        width: 80vw;
     }
 
     #etapas {
         position: absolute;
         font-family: mlight;
-        top: 157%;
-        left: 27%;
+        top: 340vw;
+        left: 28vw;
+        text-decoration: none;
+        color: #000;
     }
 
     #down {
         position: absolute;
-        top: 161%;
-        left: 47%;
+        top: 350vw;
+        left: 47vw;
     }
 
     #page3 {
@@ -1024,35 +1021,35 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        top: 165%;
+        top: 355vw;
         font-family: mlight;
     }
 
     #entrega {
         position: relative;
-        font-size: 170%;
+        font-size: 7vw;
     }
 
     p2, p4, p6 {
         position: relative;
         font-family: regular;
-        font-size: 150%;
+        font-size: 5.5vw;
     }
 
     p3, p5 {
         position: relative;
-        margin-top: 10%;
+        margin-top: 5vw;
     }
 
     p7 {
         position: relative;
-        margin-top: 25%;
-        font-size: 170%;
+        margin-top: 25vw;
+        font-size: 7vw;
     }
 
     #pp {
         position: absolute;
-        top: 110%;
+        top: 75vw;
     }
 
     .centradoimg {
@@ -1060,19 +1057,53 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        top: 202%;
-        width: 40%;
+        top: 440vw;
+    }
+
+    #img1 {
+        position: absolute;
+        width: 45vw;
+        top: 2vw;
+        left: -8vw;
+    }
+
+    #img2 {
+        position: absolute;
+        width: 50vw;
+        top: 15vw;
+        left: -9vw;
+    }
+
+    #img3 {
+        position: absolute;
+        width: 50vw;
+        top: 40vw;
+        left: -14vw;
+    }
+
+    #img4 {
+        position: absolute;
+        width: 30vw;
+        top: 60vw;
+    }
+
+    #img5 {
+        position: absolute;
+        width: 30vw;
+        top: 70vw;
     }
 
     #pf {
         font-family: mlight;
-        margin-left: 9%;
+        margin-top: 90vw;
+        text-decoration: none;
+        color: #000;
     }
 
     #down2 {
         position: absolute;
-        top: 99%;
-        left: 39%;
+        top: 95vw;
+        left: 12vw;
     }
 
     .page4 {
