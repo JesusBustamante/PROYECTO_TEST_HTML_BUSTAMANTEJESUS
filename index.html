@@ -38,11 +38,20 @@
                 <p id="tittle">Consulta tu estado del <br> Ingreso <br> Solidario</p>
                 <p id="datos">Por favor ingresa tus datos personales para revisar el estado <br> de entrega de tu ingreso</p>
                 <div class="datos">
+
                     <p id="td">Tipo de Documento</p>
-                    <input id="typedocument" type="text" name="typedocument" placeholder="Cédula de ciudadanía">
+
+                    <label for="options"></label>
+                    <select id="options">
+                        <option value="opt1">Cédula de Ciudadanía</option>
+                        <option value="opt2">Tarjeta de Identidad</option>
+                        <option value="opt3">Contraseña</option>
+                        <option value="op4">Pasaporte</option>
+                        <option value="opt5">Permiso por Protección Temporal</option>
+                    </select>
 
                     <p id="nd">Número de Documento</p>
-                    <input id="numberdocument" type="text" name="numberdocument" placeholder="">
+                    <input id="numberdocument" type="number" name="numberdocument" placeholder="">
 
                     <p id="pn">Primer Nombre</p>
                     <input id="firstname" type="text" name="firstname" placeholder="">
@@ -54,7 +63,7 @@
                     <input id="date" type="date" name="date" placeholder="">
 
                     <p id="tm">Teléfono Móvil</p>
-                    <input id="mobile" type="text" name="mobile" placeholder="">
+                    <input id="mobile" type="number" name="mobile" placeholder="">
                 </div>
 
                 <div class="borde3">

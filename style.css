@@ -173,9 +173,9 @@
         font-family: msemibold;
     }
 
-    #typedocument {
+    #options {
         position: absolute;
-        top: 35%;
+        top: 16vw;
         width: 26vw;
         height: 2vw;
     }
@@ -879,10 +879,10 @@
         justify-content: center;
     }
 
-    #typedocument {
+    #options {
         position: absolute;
         margin-top: 7vw;
-        width: 70vw;
+        width: 71vw;
     }
 
     #numberdocument {
