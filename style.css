@@ -883,36 +883,42 @@
         position: absolute;
         margin-top: 7vw;
         width: 71vw;
+        height: 6vw;
     }
 
     #numberdocument {
         position: absolute;
         margin-top: 17vw;
         width: 70vw;
+        height: 5vw;
     }
 
     #firstname {
         position: absolute;
         margin-top: 27vw;
         width: 70vw;
+        height: 5vw;
     }
 
     #lastname {
         position: absolute;
         margin-top: 37vw;
         width: 70vw;
+        height: 5vw;
     }
 
     #date {
         position: absolute;
         margin-top: 47vw;
         width: 70vw;
+        height: 5vw;
     }
 
     #mobile {
         position: absolute;
         margin-top: 57vw;
         width: 70vw;
+        height: 5vw;
     }
     
     .datos p {
@@ -1265,6 +1271,7 @@
 
     p19 {
         position: relative;
+        margin-top: 0vw;
         font-family: msemibold;
         font-size: 5vw;
     }
