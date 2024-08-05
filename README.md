@@ -5,7 +5,7 @@ Página gubernamental de subsidios económicos.
 # Índice
 
 1. Estado del Proyecto
-2. [Descripción del Proyecto](id2)
+2. [Descripción del Proyecto](#id2)
 3. Tecnologías Utilizadas
 4. Estructura del proyecto
 5. Características
