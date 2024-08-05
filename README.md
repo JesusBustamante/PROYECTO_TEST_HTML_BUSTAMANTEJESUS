@@ -59,7 +59,7 @@ https://github.com/JesusBustamante/Filtro_HTML_BustamanteJesus.git
 
 2. Si es clonado en Visual Studio Code, descargue la extensión Live Server
 
-Abre el archivo index.html con Live server dando click derecho sobre el archivo index.html, y seleccionando la opción Open With Live Server. 
+3. Abre el archivo index.html con Live server dando click derecho sobre el archivo index.html, y seleccionando la opción Open With Live Server. 
 
 # Personas Desarrolladoras del Proyecto<a name="id8"></a>
 
