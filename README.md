@@ -4,16 +4,16 @@ Página gubernamental de subsidios económicos.
 
 # Índice
 
-1. Estado del Proyecto
+1. [Estado del Proyecto](#id1)
 2. [Descripción del Proyecto](#id2)
-3. Tecnologías Utilizadas
-4. Estructura del proyecto
-5. Características
-6. Diseño
-7. Instrucciones
-5. Personas Desarrolladoras del Proyecto
+3. [Tecnologías Utilizadas](#id3)
+4. [Estructura del proyecto](#id4)
+5. [Características](#id5)
+6. [Diseño](#id6)
+7. [Instrucciones](#id7)
+8. [Personas Desarrolladoras del Proyecto](#id8)
 
-# Estado del proyecto
+# Estado del proyecto<a name="id1"></a>
 
 Finalizado
 
@@ -22,17 +22,17 @@ Finalizado
 En este sitio, puede encontrar información sobre quién es elegible para estos subsidios y cómo puede solicitarlos. Nuestro objetivo es hacer que este material sea accesible y proporcionar la información más actualizada disponible para aquellos que la necesiten, además de información actualizada sobre cualquier cambio en el sistema de subsidios. En resumen, este sitio web debe servir como un recurso completo para alguien que requiera de ayuda financiera como resultado de la pandemia COVID-19.
 
 
-# Tecnologías utilizadas
+# Tecnologías utilizadas<a name="id3"></a>
 
 * HTML5
 * CSS
 * Tipografía: MyriadPro (light, regular, semibold y bold)
 
-# Estructura del proyecto
+# Estructura del proyecto<a name="id4"></a>
 
 ![alt text](image.png)
 
-# Características
+# Características<a name="id5"></a>
 
 Archivos Fundamentales:
 
@@ -44,13 +44,13 @@ Archivos Fundamentales:
 
 **Fuentes Tipográficas**: La carpeta fonts contiene archivos de fuentes utilizados para dar estilo al texto en la página.
 
-# Diseño
+# Diseño<a name="id6"></a>
 
 * El diseño es responsive, se adapta a todo tipo de pantallas. Cuenta con media querys para darle un estilo que se adapte a ciertos dispositivos
 
 * En su mayoría, el posicionamiento es absoluto.
 
-# Instrucciones
+# Instrucciones<a name="id7"></a>
 
 1. Clonar el repositorio
 ~~~
@@ -60,6 +60,6 @@ https://github.com/JesusBustamante/Filtro_HTML_BustamanteJesus.git
 2. Abre el archivo index.html en tu navegador web.
 
 
-# Personas Desarrolladoras del Proyecto
+# Personas Desarrolladoras del Proyecto<a name="id8"></a>
 
 Este proyecto fue desarrollado por Jesús Leonardo Bustamante Ramírez, estudiante de Campuslands como parte de los proyectos requeridos para el módulo de HTML y CSS.
