@@ -5,7 +5,7 @@ Página gubernamental de subsidios económicos.
 # Índice
 
 1. Estado del Proyecto
-2. Descripción del Proyecto
+2. [Descripción del Proyecto](id2)
 3. Tecnologías Utilizadas
 4. Estructura del proyecto
 5. Características
@@ -17,7 +17,7 @@ Página gubernamental de subsidios económicos.
 
 Finalizado
 
-# Descripción del Proyecto
+# Descripción del Proyecto<a name="id2"></a>
 
 En este sitio, puede encontrar información sobre quién es elegible para estos subsidios y cómo puede solicitarlos. Nuestro objetivo es hacer que este material sea accesible y proporcionar la información más actualizada disponible para aquellos que la necesiten, además de información actualizada sobre cualquier cambio en el sistema de subsidios. En resumen, este sitio web debe servir como un recurso completo para alguien que requiera de ayuda financiera como resultado de la pandemia COVID-19.
 
